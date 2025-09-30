@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: first;
+    font-family: 700;
+    src: url(font/Korolev\ Bold.otf);
+}
+@font-face {
+    font-family: sec;
+    src: url(font/SoDoSans-Bold.ttf);    
+}
+body{
+    overflow-x: hidden;
+    font-family: sec;
+    font-family: 700;
+}
+#carouselExampleCaptions {
+  max-width: 1200px; 
+  margin: auto;      
+}
+.nam{
+    margin: 10px;
+    height: 60px;
+    width: 60xp;
+    border-radius: 50%;
+}
+.size1 {
+    margin-top: 130px;
+  height: 800px;
+  object-fit: cover;
+}
+.navbar {
+     font-family: first;
+    font-family: 700;
+    background-color: grey;
+}
+.navbar-brand {
+    font-size: 100px;
+     font-family:sec;
+    font-family: 700;
+    background-color: grey;
+}
+
+.navbar input{
+    background-color: transparent;
+    border: 1px solid ;
+}
+.con{
+     font-family: first;
+    font-family: 700;
+    background-color: rgb(33,37,41);
+}
+img.slide{
+    width: 70%;
+    height: 900px;
+}
+img.size{
+    height: 400px;
+
+}
+img.size1{
+    height: 700px;
+  
+}
+img.size2{
+    height: 350px;
+  
+}
+img.size4{
+    height: 400px;
+}
+.container h2{
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+.container h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     font-family: sec;
+    font-family: 700;
+}
+
+.card{
+    margin: 10px;
+}
+
+.row a{
+     font-family: first;
+    font-family: 700;
+    gap: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: large;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row a:hover{
+    text-decoration: underline;
+}
+.row h2{
+     font-family: sec;
+    font-family: 700;
+    font-size: 25px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.icon{
+    background-color: grey;
+    height: 100px;
+    width: 100%;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+        gap: 30px;
+
+}
+ .icon a{
+    color: black;
+    font-size: 45px;
+    text-decoration: none;
+ }
+ .icon a:hover{
+    font-size:58px ;
+ }
+.container-fluid h5{
+    color: grey;
+}
+.container-fluid h6{
+    color: whitesmoke;
+}
